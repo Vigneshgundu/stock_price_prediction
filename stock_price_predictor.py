@@ -25,7 +25,7 @@ if google_data.empty:
 google_data = google_data[['Close']].copy()  # Ensure only 'Close' column is used
 
 # Load pre-trained model
-model_path = r"C:\Users\gundu\OneDrive\Desktop\web-development\projects\python_stock_price_prediciton\Latest_stock_price_model.keras"
+model_path = r"\python_stock_price_prediciton\Latest_stock_price_model.keras"
 model = load_model(model_path)
 
 st.subheader("Stock Data")
